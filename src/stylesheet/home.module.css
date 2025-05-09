@@ -2,20 +2,21 @@
 .home {
     display: flex;
     align-items: center;
-    justify-content: center;
-    min-height: 200vh; /* Updated property */
-    background-image: url("../images/whitebg.jpg");
+    justify-content: left;
+    min-height: 100vh; /* Updated property */
+    background-image: url("../images/Adrian\ ORIG.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
+  
   
   .content {
     text-align: center;
   }
   
   .content h1 {
-    font-size: 140px;
+    font-size: 60px;
     color: white;
     font-weight: 800;
     transition: 0.5s;
@@ -27,11 +28,11 @@
   }
   
   :root {
-    --color-primary: #f6aca2;
-    --color-secondary: #f49b90;
-    --color-tertiary: #f28b7d;
-    --color-quaternary: #f07a6a;
-    --color-quinary: #ee6352;
+    --color-primary: #000000;
+    --color-secondary: #080808;
+    --color-tertiary: #181717;
+    --color-quaternary: #161616;
+    --color-quinary: #0e0d0d;
   }
   
   .centeredHeading {
@@ -47,3 +48,6 @@
     animation: shadows 1.2s ease-in infinite;
     letter-spacing: 0.4rem;
   }
+
+  
+

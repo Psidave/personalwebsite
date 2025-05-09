@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className={styles.home}>
     <div className={styles.content}>
-      <h1 className={styles.centeredHeading}>Psyduck</h1>
+      <h1 className={styles.centeredHeading}>I am Adrian Orig</h1>
     </div>
 
   </div>
