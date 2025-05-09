@@ -47,4 +47,20 @@
     animation: shadows 1.2s ease-in infinite;
     letter-spacing: 0.4rem;
   }
-  
+
+  ::-webkit-scrollbar{
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track{
+    background-color: #000;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background: #c9c9c9
+    
+  }
+
+  ::-webkit-scrollbar-thumb:hover{
+    background: #2ac;
+  }
