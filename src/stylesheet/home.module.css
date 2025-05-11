@@ -2,9 +2,9 @@
 .home {
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: flex-start;
     min-height: 100vh; /* Updated property */
-    background-image: url("../images/Adrian\ ORIG.jpg");
+    background-image: url("../images/Adrian\ ORIG.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -43,11 +43,70 @@
     text-transform: uppercase;
     font-size: calc(2rem + 5vw);
     text-align: center;
-    margin: 0;
+    margin-left: 100px;
     color: var(--color-primary);
     animation: shadows 1.2s ease-in infinite;
     letter-spacing: 0.4rem;
   }
 
+  .portfolioButton {
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid #333; /* or any color you like */
+    cursor: pointer;
+    border-radius: 999px; /* Fully rounded */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .porfolioButton:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  
+  .homeButton {
+    position: absolute;
+    top: 20px;
+    right: 800px;
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(12, 12, 12);
+    z-index: 1000;
+
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .aboutButton {
+    position: absolute;
+    top: 20px;
+    right: 600px;
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(12, 12, 12);
+    z-index: 1000;
+
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  
   
 
