@@ -1,0 +1,10 @@
+/* src/pages/portfolio.module.css */
+.portfolioPage {
+  padding: 2rem;
+  text-align: center;
+}
+
+.portfolioPage h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
